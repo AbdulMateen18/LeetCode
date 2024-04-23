@@ -1,6 +1,6 @@
 // Solution using recursion
 
-class Solution {
+class solution {
     public int maxScore(String s) {
         int ones=0,zeros=0,max=Integer.MIN_VALUE;
         for(int i=0;i<s.length();i++){
