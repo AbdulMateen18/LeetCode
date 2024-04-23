@@ -1,4 +1,4 @@
-class Solution {
+class solution {
     public int maxWidthOfVerticalArea(int[][] points) {
         //Sort 2D array on the basis of first element/x-coordinate
         Arrays.sort(points, (a, b) -> Integer.compare(a[0], b[0]));
