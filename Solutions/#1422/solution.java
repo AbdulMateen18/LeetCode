@@ -1,3 +1,5 @@
+// Solution using recursion
+
 class Solution {
     public int maxScore(String s) {
         int ones=0,zeros=0,max=Integer.MIN_VALUE;
