@@ -1,5 +1,5 @@
 import java.util.Arrays;
-class Solution {
+class solution {
     public int buyChoco(int[] prices, int money) {
         Arrays.sort(prices);
         int n = prices.length;
