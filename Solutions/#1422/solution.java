@@ -7,7 +7,7 @@ class solution {
             if(s.charAt(i)=='1') ones++;
             else zeros++;
             if(i!=s.length()-1) max = Math.max(zeros-ones,max);
-        }
+        }//for
         return max+ones;
-    }
-}
+    }//maxScore()
+}//class
