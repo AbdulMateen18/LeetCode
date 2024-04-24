@@ -1,3 +1,5 @@
+// Solution using recursion
+
 class solution {
     public boolean isPowerOfFour(int n) {
         if(n==0) return false;
