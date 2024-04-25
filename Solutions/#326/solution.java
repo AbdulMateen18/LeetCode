@@ -1,4 +1,4 @@
-class Solution {
+class solution {
     public boolean isPowerOfThree(int n) {
         if(n==0){
             return false;
