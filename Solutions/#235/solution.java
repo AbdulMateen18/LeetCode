@@ -1,4 +1,4 @@
-class Solution {
+class solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         int small = Math.min(p.val, q.val);
         int large = Math.max(p.val, q.val);
