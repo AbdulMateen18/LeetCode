@@ -1,12 +1,10 @@
 class Solution{
-public TreeNode sortedArrayToBST(int[] nums) {
+    public TreeNode sortedArrayToBST(int[] nums) {
         return CreateBST(nums, 0, nums.length - 1);
     }
 
     private TreeNode CreateBST(int nums[], int l, int r) {
-        if (l > r) { // Base Condition or Recursion Stoping Condition
-            return null;
-        }
+        if (l > r) return null;
 		// so basically in this question we have to convert sorted array to height balanced tree
 		// so if we directly create tree in given sorted order it will become linked list
 		// so we have to take middle element as head value such it will  become height balanced tree 
