@@ -20,5 +20,5 @@ class solution {
             prev = root;
             inOrder(root.right);
         }//else
-    }
-}
+    }//inOrder()
+}//class
