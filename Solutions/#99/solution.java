@@ -1,5 +1,5 @@
-class Solution {
-        TreeNode first = null,second=null,prev=null;
+class solution {
+    TreeNode first = null,second=null,prev=null;
     public void recoverTree(TreeNode root) {
         
         inOrder(root);
