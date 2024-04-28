@@ -5,7 +5,7 @@ class solution {
         int temp = first.val;
         first.val = second.val;;
         second.val = temp;
-    }
+    }//recoverTree
 
     public void inOrder(TreeNode root){
         if(root==null){
