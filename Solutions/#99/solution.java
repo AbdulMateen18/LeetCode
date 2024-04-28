@@ -14,11 +14,11 @@ class solution {
             if(prev!=null && root.val<prev.val){
                 if(first==null){
                     first=prev;
-                }
+                }//if
                 second=root;
-            }
+            }//outer-if
             prev = root;
             inOrder(root.right);
-        }
+        }//else
     }
 }
