@@ -8,9 +8,8 @@ class solution {
     }//recoverTree
 
     public void inOrder(TreeNode root){
-        if(root==null){
-            return;
-        }else{
+        if(root==null) return;
+        else{
             inOrder(root.left);
             if(prev!=null && root.val<prev.val){
                 if(first==null){
