@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-class Solution {
+class solution {
    
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> l = new LinkedList<Integer>();
