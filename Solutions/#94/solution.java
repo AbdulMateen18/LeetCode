@@ -11,7 +11,6 @@ class solution {
             helper(root.left,l);
             l.add(root.val);
             helper(root.right,l);
-        }
-        
-    }
-}
+        }//if
+    }//helper()
+}//class
