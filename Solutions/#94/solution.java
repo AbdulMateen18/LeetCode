@@ -2,8 +2,8 @@ import java.util.LinkedList;
 class solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new LinkedList<Integer>();
-        helper(root,l);
-        return l;
+        helper(root,list);
+        return list;
     }
 
     public void helper(TreeNode root,List l){
