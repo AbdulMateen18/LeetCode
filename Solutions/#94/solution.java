@@ -4,7 +4,7 @@ class solution {
         List<Integer> list = new LinkedList<Integer>();
         helper(root,list);
         return list;
-    }
+    }//inOrderTraversal
 
     public void helper(TreeNode root,List l){
         if(root!=null){
