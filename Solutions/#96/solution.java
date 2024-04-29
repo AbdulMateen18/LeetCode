@@ -6,7 +6,7 @@ class solution {
             for(int j = 0; j < i; j++) {
                 sol[i] += sol[j] * sol[i-j-1];
             }//inner for
-        }
+        }//outer for
         return sol[n];
     }
 }
