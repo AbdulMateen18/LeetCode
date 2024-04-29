@@ -9,4 +9,4 @@ class solution {
         }//outer for
         return sol[n];
     }//numTrees
-}
+}//class
