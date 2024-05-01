@@ -8,12 +8,9 @@ class solution {
         }
         if(n==0) return 1;
         if(n%2==0) return myPow(x*x,n/2);
-        else{
-             return x*myPow(x,n-1);
-        }
-
-    }
-}
+        else return x*myPow(x,n-1);
+    }//myPow()
+}//class
 
 // class Solution {
 //     public double myPow(double x, int n) {
@@ -50,12 +47,10 @@ class Solution {
                 ans = ans * x;
                 n_temp--;
             }
-        }
-        if(n<0){
-            return (double) 1/ans;
-        }
+        }//while
+        if(n<0) return (double) 1/ans;
         return ans;
-    }
+    }//myPow()
 }
 
 // Credits : Rutvik_Jasani
