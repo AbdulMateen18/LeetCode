@@ -1,6 +1,6 @@
 // Using Recursion
 
-class Solution {
+class solution {
     public double myPow(double x, long n) {
         if(n<0){
             n= Math.abs(n);
