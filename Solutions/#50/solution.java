@@ -38,7 +38,7 @@ class Solution {
         long n_temp = n;
         if(n_temp<0){
             n_temp *= -1;
-        }
+        }//if
         while(n_temp>0){
             if(n_temp%2==0){
                 x = x*x;
@@ -46,11 +46,11 @@ class Solution {
             }else{
                 ans = ans * x;
                 n_temp--;
-            }
+            }//else
         }//while
         if(n<0) return (double) 1/ans;
         return ans;
     }//myPow()
-}
+}//class
 
 // Credits : Rutvik_Jasani
