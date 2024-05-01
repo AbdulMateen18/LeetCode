@@ -1,5 +1,5 @@
 // Using Recursion
-
+/* 
 class solution {
     public double myPow(double x, long n) {
         if(n<0){
@@ -11,6 +11,7 @@ class solution {
         else return x*myPow(x,n-1);
     }//myPow()
 }//class
+*/
 
 // class Solution {
 //     public double myPow(double x, int n) {
