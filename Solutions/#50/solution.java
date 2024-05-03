@@ -33,7 +33,7 @@ class solution {
 
 // Above solution gives "TIME LIMIT EXCEEDED ERROR"
 
-class Solution {
+class solution {
     public double myPow(double x, int n) {
         double ans=1;
         long n_temp = n;
