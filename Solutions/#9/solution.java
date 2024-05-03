@@ -5,7 +5,7 @@ class solution {
         while (x>rev){
     	    rev = rev*10 + x%10;
     	    x = x/10;
-    }
+        }//while
     return (x==rev || x==rev/10);
     }
 }
