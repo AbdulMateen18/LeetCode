@@ -37,9 +37,7 @@ class solution {
     public double myPow(double x, int n) {
         double ans=1;
         long n_temp = n;
-        if(n_temp<0){
-            n_temp *= -1;
-        }//if
+        if(n_temp<0) n_temp *= -1;
         while(n_temp>0){
             if(n_temp%2==0){
                 x = x*x;
