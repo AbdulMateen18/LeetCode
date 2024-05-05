@@ -9,3 +9,5 @@ class solution {
         return (x==rev || x==rev/10);
     }//isPalindrome()
 }//class
+
+// A solution I studied in my collage
