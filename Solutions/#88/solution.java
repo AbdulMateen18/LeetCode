@@ -1,9 +1,9 @@
 /*A solution I studied in Introduction to algorithms book by
 T H O M A S H. CORMEN
 C H A R L E S E. LEISERSON
-R O N A L D L . 
+R O N A L D L . RIVEST
 CLIFFORD STEIN
-RIVEST
+
 
 
 
