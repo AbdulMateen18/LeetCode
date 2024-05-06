@@ -1,5 +1,13 @@
-// A solution I studied in Introduction to algorithms book by
-//
+/*A solution I studied in Introduction to algorithms book by
+T H O M A S H. CORMEN
+C H A R L E S E. LEISERSON
+R O N A L D L . 
+CLIFFORD STEIN
+RIVEST
+
+
+
+*/
 
 class solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) {
